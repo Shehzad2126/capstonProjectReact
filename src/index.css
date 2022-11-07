@@ -1,0 +1,32 @@
+.section{
+  background-image: linear-gradient(to right, #3da7ff, #42d1ff);
+  height: auto;
+}
+
+.phone{
+  height: 100%;
+  width: 100%;
+  transform: rotate(-45deg) ;
+  
+}
+.detailsButton{
+  background-image: linear-gradient(to right, #3da7ff, #42d1ff);
+}
+.features{
+  border: 10px solid white;
+}
+video{
+  height: 80vh;
+}
+.imgSize{
+  height: 40px;
+  width: 40px;
+}
+ul{
+  list-style-type: none;
+}
+.insta{
+  height: 40px;
+  width: 40px;
+  margin: 2px;
+}
