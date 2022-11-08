@@ -1,5 +1,6 @@
 import React from 'react';
-
+import andriod from "../images/andriod.png"
+import apple from "../images/apple.png"
 function DownloadApp() {
   return (
     <div>
@@ -22,7 +23,7 @@ function DownloadApp() {
                 <div class="p-1">
                   <div class="row">
                     <div class="col-3 d-flex pt-2 justify-content-center">
-                      <img class="imgSize" src="images/apple.png" alt=""/>
+                      <img class="imgSize" src={apple} alt=""/>
                     </div>
                     <div class="col-9">
                       <h4>Available</h4>
@@ -35,7 +36,7 @@ function DownloadApp() {
                 <div class="p-1">
                   <div class="row">
                     <div class="col-3 d-flex pt-2 justify-content-center">
-                      <img class="imgSize" src="images/andriod.png" alt=""/>
+                      <img class="imgSize" src={andriod} alt=""/>
                     </div>
                     <div class="col-9">
                       <h4>Available</h4>

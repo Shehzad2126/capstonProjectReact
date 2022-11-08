@@ -1,5 +1,7 @@
 import React from 'react';
-
+import MiscellaneousServicesIcon from '@mui/icons-material/MiscellaneousServices';
+import ElectricalServicesIcon from '@mui/icons-material/ElectricalServices';
+import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
 function NewsSection() {
   return (
     <div>
@@ -14,9 +16,7 @@ function NewsSection() {
         </div>
         <div class="row">
           <div class="col-lg-4 p-3 col-md-6">
-            <i class="fa-regular fa-hexagon">
-              <i class="fa-solid fa-wand-magic-sparkles"></i>
-            </i>
+            <AutoFixHighIcon/>
             <h4 class="py-4">Maintanence</h4>
             <p class="text-secondary">
               inappropriate behavior is often laughed off as “boys will be
@@ -25,9 +25,7 @@ function NewsSection() {
             </p>
           </div>
           <div class="col-lg-4 p-3 col-md-6">
-            <i class="fa-regular fa-hexagon">
-              <i class="fa-thin fa-rocket"></i>
-            </i>
+            <MiscellaneousServicesIcon/>
             <h4 class="py-4">Residential Service</h4>
             <p class="text-secondary">
               inappropriate behavior is often laughed off as “boys will be
@@ -36,9 +34,7 @@ function NewsSection() {
             </p>
           </div>
           <div class="col-lg-4 p-3 col-md-6">
-            <i class="fa-regular fa-hexagon">
-              <i class="fa-thin fa-bug"></i>
-            </i>
+            <ElectricalServicesIcon/>
             <h4 class="py-4">Commercial Service</h4>
             <p class="text-secondary">
               inappropriate behavior is often laughed off as “boys will be

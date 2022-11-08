@@ -1,5 +1,6 @@
 import React from 'react';
-
+import Capture1 from "../images/Capture1.PNG"
+import Capture2 from "../images/Capture2.PNG"
 function Architect() {
   return (
     <div>
@@ -25,8 +26,8 @@ function Architect() {
         </div>
         <div class="right col-md-5 mr-auto">
           <div class="row">
-            <img class="col-6" src="images/Capture1.PNG" alt="" />
-            <img class="col-6" src="images/Capture2.PNG" alt="" />
+            <img class="col-6" src={Capture1} alt="" />
+            <img class="col-6" src={Capture2} alt="" />
           </div>
         </div>
       </div>

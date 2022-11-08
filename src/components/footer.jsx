@@ -1,5 +1,12 @@
 import React from 'react';
-
+import pic1 from "../images/pic1.PNG"
+import pic2 from "../images/pic2.PNG"
+import pic3 from "../images/pic3.PNG"
+import pic4 from "../images/pic4.PNG"
+import pic5 from "../images/pic5.PNG"
+import pic6 from "../images/pic6.PNG"
+import pic7 from "../images/pic7.PNG"
+import pic8 from "../images/pic8.PNG"
 function Footer() {
   return (
     <div>
@@ -32,14 +39,14 @@ function Footer() {
                 
               </h6>
               <div class="row">
-                <img class="insta" src="images/pic1.PNG" alt=""/>
-                <img class="insta" src="images/pic2.PNG" alt=""/>
-                <img class="insta" src="images/pic3.PNG" alt=""/>
-                <img class="insta" src="images/pic4.PNG" alt=""/>
-                <img class="insta" src="images/pic5.PNG" alt=""/>
-                <img class="insta" src="images/pic6.PNG" alt=""/>
-                <img class="insta" src="images/pic7.PNG" alt=""/>
-                <img class="insta" src="images/pic8.PNG" alt=""/>
+                <img class="insta" src={pic1} alt=""/>
+                <img class="insta" src={pic2} alt=""/>
+                <img class="insta" src={pic3} alt=""/>
+                <img class="insta" src={pic4} alt=""/>
+                <img class="insta" src={pic5} alt=""/>
+                <img class="insta" src={pic6} alt=""/>
+                <img class="insta" src={pic7} alt=""/>
+                <img class="insta" src={pic8} alt=""/>
               </div>
             </div>
           </div>

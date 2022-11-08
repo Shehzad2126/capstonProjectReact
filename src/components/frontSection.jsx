@@ -1,5 +1,5 @@
 import React from 'react';
-
+import phone from "../images/phone.png"
 function FrontSection() {
   return (
     <div>
@@ -26,7 +26,7 @@ function FrontSection() {
         </div>
         <div class="text-center col-md-6 p-5">
           <div class="col-md-10">
-            <img class="phone image-fluid" src="./images/phone.png" alt="" />
+            <img class="phone image-fluid" src={phone} alt="" />
           </div>
         </div>
       </div>

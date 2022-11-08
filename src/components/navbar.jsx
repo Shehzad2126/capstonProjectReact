@@ -1,5 +1,5 @@
 import React from "react";
-
+import AcUnitIcon from '@mui/icons-material/AcUnit';
 function Navbar(){
     return <div>
 <div class="container sec">
@@ -8,7 +8,7 @@ function Navbar(){
       >
         <a className="navbar-brand text-uppercase text-dark" href="https://www.google.com/">
           <i class="fa-duotone fa-command bg-primary"></i>
-          <img src="../images/app.jpeg" alt=""/> Apps
+          <AcUnitIcon/> Apps
         </a>
         <button
           class="navbar-toggler"
